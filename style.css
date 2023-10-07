@@ -1,0 +1,117 @@
+.sec1{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    text-align: center;
+}
+.main1{
+    border: 2px solid white;
+    width: 270px;
+    height: 400px;
+    background-color: skyblue;
+    box-shadow: 0 0 15px white;
+    border-radius: 10px;
+}
+.heading{
+    text-align: center;
+    font-size: 35px;
+    align-items: center;
+    margin-top: 10px;
+    font-style: italic;
+}
+input{
+    width: 230px;
+    height: 35px;
+    font-size: 20px;
+    border: none;
+    border:2px solid white ;
+    /* box-shadow: 0 0 10px black; */
+    background-color: transparent;
+    border-radius: 10px;
+    padding-left:5px ;
+    margin-top: 05px;
+}
+input:focus{
+    outline: none;
+}
+::placeholder{
+    font-size: 20px;
+    padding-left: 5px;
+}
+.singupbtn{
+    height: 40px;
+    width: 100px;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: skyblue;
+    border: 2px solid white;
+    color: white;
+}
+.singupbtn:hover{
+    box-shadow: 0 0 10px black;
+}
+.main2{
+    border: 2px solid white;
+    width: 270px;
+    height: 300px;
+    background-color: skyblue;
+    box-shadow: 0 0 15px white;
+    border-radius: 10px;
+}
+#login,#quize{
+    display: none;
+}
+.main3,.main4{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+.addlistbtn{
+    height: 40px;
+    width: 100px;
+    border: 2px solid white;
+    background-color: skyblue;
+    box-shadow: 0 0 10px white;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+.iteminp{
+    height: 50px;
+    width: 300px;
+    border: 2px solid white;
+    background-color: skyblue;
+    box-shadow: 0 0 10px white;
+    font-size: 20px;
+}
+::placeholder{
+    font-size: 20px;
+}
+.getlist{
+   border-radius: 15px ;
+   height: 50px;
+   width: 300px;
+   display: flex;
+   justify-content: space-between;
+   background-color: skyblue;
+   box-shadow: 0 0 13px white;
+
+}
+.delbtn{
+    height: 40px;
+    width: 30px;
+    border: none;
+    background-color: skyblue;
+    /* box-shadow: 0 0 13px white; */
+    color: red;
+    font-size: 20px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+.para{
+    font-size: 25px;
+    color: white;
+}
